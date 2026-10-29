@@ -1,0 +1,159 @@
+{
+  "dataset_id": "four_communities_2026-01_v1",
+  "purpose": "Continuous monthly reference slices for exploring interaction representation and modeling; not a representative sample of all Reddit",
+  "source": "Arctic Shift monthly archives",
+  "created_at_utc": "2026-10-29T13:26:01.998490+00:00",
+  "interval_utc": {
+    "start_inclusive": "2026-01-01T00:00:00Z",
+    "end_exclusive": "2026-02-01T00:00:00Z"
+  },
+  "communities": [
+    {
+      "subreddit": "askscience",
+      "statistics": {
+        "submissions": 21982,
+        "comments": 6629,
+        "unique_nonplaceholder_authors": 4513,
+        "authors_with_2_or_more_events": 1567,
+        "authors_active_on_2_or_more_days": 1103,
+        "events_with_deleted_or_missing_author": 2311,
+        "submissions_with_selected_comments": 1154,
+        "comments_directly_replying_to_posts": 2964,
+        "comments_replying_to_comments": 3665,
+        "comments_with_parent_outside_package": 231,
+        "distinct_parents_outside_package": 118,
+        "comments_with_submission_outside_package": 367,
+        "distinct_submissions_outside_package": 46,
+        "removed_or_deleted_submissions": 21977,
+        "placeholder_body_comments": 2287
+      },
+      "files": {
+        "submissions.jsonl": {
+          "bytes": 56976877,
+          "records": 21982,
+          "sha256": "ab3fdd3388cb7789e92047898261ce4a73923acf06474589c9d7a52872bd1fd0"
+        },
+        "comments.jsonl": {
+          "bytes": 12285698,
+          "records": 6629,
+          "sha256": "90decb3fd919bb0fea45aae9e6f0cfab26c64e561e1e38dcb35596d5233a84a6"
+        }
+      }
+    },
+    {
+      "subreddit": "changemyview",
+      "statistics": {
+        "submissions": 3180,
+        "comments": 195016,
+        "unique_nonplaceholder_authors": 33509,
+        "authors_with_2_or_more_events": 17093,
+        "authors_active_on_2_or_more_days": 11921,
+        "events_with_deleted_or_missing_author": 2466,
+        "submissions_with_selected_comments": 1684,
+        "comments_directly_replying_to_posts": 46144,
+        "comments_replying_to_comments": 148872,
+        "comments_with_parent_outside_package": 3598,
+        "distinct_parents_outside_package": 2465,
+        "comments_with_submission_outside_package": 6245,
+        "distinct_submissions_outside_package": 756,
+        "removed_or_deleted_submissions": 1745,
+        "placeholder_body_comments": 2425
+      },
+      "files": {
+        "submissions.jsonl": {
+          "bytes": 10849829,
+          "records": 3180,
+          "sha256": "708cdce92457c6379294d654156e25586159653df5bfbe1cd8525bbf19098e69"
+        },
+        "comments.jsonl": {
+          "bytes": 394859808,
+          "records": 195016,
+          "sha256": "dfa940409d75463041cd5a6144b2b7b3e38dbd76ca523060dcf69ec8924fb086"
+        }
+      }
+    },
+    {
+      "subreddit": "technology",
+      "statistics": {
+        "submissions": 3474,
+        "comments": 265475,
+        "unique_nonplaceholder_authors": 88108,
+        "authors_with_2_or_more_events": 36871,
+        "authors_active_on_2_or_more_days": 29488,
+        "events_with_deleted_or_missing_author": 19521,
+        "submissions_with_selected_comments": 2593,
+        "comments_directly_replying_to_posts": 91266,
+        "comments_replying_to_comments": 174209,
+        "comments_with_parent_outside_package": 2160,
+        "distinct_parents_outside_package": 1441,
+        "comments_with_submission_outside_package": 3644,
+        "distinct_submissions_outside_package": 625,
+        "removed_or_deleted_submissions": 1314,
+        "placeholder_body_comments": 19440
+      },
+      "files": {
+        "submissions.jsonl": {
+          "bytes": 12732760,
+          "records": 3474,
+          "sha256": "3fac9766c5238e76596c44fa48978267531aab4855f3b2057678a280b560361c"
+        },
+        "comments.jsonl": {
+          "bytes": 470500696,
+          "records": 265475,
+          "sha256": "e95a8d049d7fdee8102894ff5f9ab7ce7e1b910b559bd221ce27bc8a46ff7da4"
+        }
+      }
+    },
+    {
+      "subreddit": "CasualConversation",
+      "statistics": {
+        "submissions": 8353,
+        "comments": 132426,
+        "unique_nonplaceholder_authors": 44933,
+        "authors_with_2_or_more_events": 18708,
+        "authors_active_on_2_or_more_days": 13626,
+        "events_with_deleted_or_missing_author": 3398,
+        "submissions_with_selected_comments": 6176,
+        "comments_directly_replying_to_posts": 80888,
+        "comments_replying_to_comments": 51538,
+        "comments_with_parent_outside_package": 2207,
+        "distinct_parents_outside_package": 1071,
+        "comments_with_submission_outside_package": 2774,
+        "distinct_submissions_outside_package": 625,
+        "removed_or_deleted_submissions": 4404,
+        "placeholder_body_comments": 3237
+      },
+      "files": {
+        "submissions.jsonl": {
+          "bytes": 24305254,
+          "records": 8353,
+          "sha256": "345a39adafe66b3f6bff4d1ac21679e5e51a7b9adf182ef00749b5c632a6ccb7"
+        },
+        "comments.jsonl": {
+          "bytes": 242267706,
+          "records": 132426,
+          "sha256": "a162c545478962e700e3eb96b09313a5f55ef4239bf005033745cc2f6ef6ebe8"
+        }
+      }
+    }
+  ],
+  "selection": "All archived submissions and comments in each selected subreddit whose created_utc falls within the monthly interval; no thread-based or content filtering",
+  "preservation": "Original JSON lines and all record fields preserved; no anonymization, added record fields, deduplication, or content rewriting",
+  "source_files": [
+    {
+      "filename": "/hpchome/yifan.ren/reddit_arctic_shift/monthly_2026/archives/reddit/submissions/RS_2026-01.zst",
+      "compressed_bytes": 19601894565
+    },
+    {
+      "filename": "/hpchome/yifan.ren/reddit_arctic_shift/monthly_2026/archives/reddit/comments/RC_2026-01.zst",
+      "compressed_bytes": 42027209694
+    }
+  ],
+  "limitations": [
+    "Coverage is limited to available archive records, not guaranteed complete Reddit history.",
+    "Monthly comments can refer to submissions or parent comments outside the monthly slice. Missing reference means absent from this package, not necessarily absent from Reddit.",
+    "User histories are restricted to these four subreddits and this month.",
+    "Observed author activity does not reveal post exposure, silent users, or internal beliefs.",
+    "Scores, edits, removal status and other mutable fields are retrieval snapshots; use care to avoid future-information leakage in temporal tasks."
+  ]
+}

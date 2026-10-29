@@ -1,0 +1,749 @@
+{
+  "subreddit": "technology",
+  "interval_utc": {
+    "start_inclusive": "2026-01-01T00:00:00Z",
+    "end_exclusive": "2026-02-01T00:00:00Z"
+  },
+  "selection": "All archived submissions and comments in each selected subreddit whose created_utc falls within the monthly interval; no thread-based or content filtering",
+  "preservation": "Original JSON lines and all record fields preserved; no anonymization, added record fields, deduplication, or content rewriting",
+  "statistics": {
+    "submissions": 3474,
+    "comments": 265475,
+    "unique_nonplaceholder_authors": 88108,
+    "authors_with_2_or_more_events": 36871,
+    "authors_active_on_2_or_more_days": 29488,
+    "events_with_deleted_or_missing_author": 19521,
+    "submissions_with_selected_comments": 2593,
+    "comments_directly_replying_to_posts": 91266,
+    "comments_replying_to_comments": 174209,
+    "comments_with_parent_outside_package": 2160,
+    "distinct_parents_outside_package": 1441,
+    "comments_with_submission_outside_package": 3644,
+    "distinct_submissions_outside_package": 625,
+    "removed_or_deleted_submissions": 1314,
+    "placeholder_body_comments": 19440
+  },
+  "daily_counts": {
+    "submissions": {
+      "2026-01-01": 80,
+      "2026-01-02": 107,
+      "2026-01-03": 77,
+      "2026-01-04": 71,
+      "2026-01-05": 126,
+      "2026-01-06": 124,
+      "2026-01-07": 131,
+      "2026-01-08": 131,
+      "2026-01-09": 110,
+      "2026-01-10": 86,
+      "2026-01-11": 94,
+      "2026-01-12": 88,
+      "2026-01-13": 93,
+      "2026-01-14": 139,
+      "2026-01-15": 109,
+      "2026-01-16": 111,
+      "2026-01-17": 72,
+      "2026-01-18": 56,
+      "2026-01-19": 101,
+      "2026-01-20": 86,
+      "2026-01-21": 106,
+      "2026-01-22": 161,
+      "2026-01-23": 137,
+      "2026-01-24": 109,
+      "2026-01-25": 77,
+      "2026-01-26": 130,
+      "2026-01-27": 201,
+      "2026-01-28": 159,
+      "2026-01-29": 145,
+      "2026-01-30": 138,
+      "2026-01-31": 119
+    },
+    "comments": {
+      "2026-01-01": 4578,
+      "2026-01-02": 11560,
+      "2026-01-03": 7682,
+      "2026-01-04": 4988,
+      "2026-01-05": 8083,
+      "2026-01-06": 9632,
+      "2026-01-07": 10973,
+      "2026-01-08": 9116,
+      "2026-01-09": 8368,
+      "2026-01-10": 6505,
+      "2026-01-11": 7594,
+      "2026-01-12": 10390,
+      "2026-01-13": 7190,
+      "2026-01-14": 7838,
+      "2026-01-15": 6283,
+      "2026-01-16": 10552,
+      "2026-01-17": 6475,
+      "2026-01-18": 4975,
+      "2026-01-19": 7104,
+      "2026-01-20": 9378,
+      "2026-01-21": 7514,
+      "2026-01-22": 6565,
+      "2026-01-23": 10140,
+      "2026-01-24": 9041,
+      "2026-01-25": 5382,
+      "2026-01-26": 10591,
+      "2026-01-27": 13321,
+      "2026-01-28": 9557,
+      "2026-01-29": 11867,
+      "2026-01-30": 13248,
+      "2026-01-31": 8985
+    }
+  },
+  "observed_field_types_and_counts": {
+    "submissions": {
+      "_meta": {
+        "dict": 3452
+      },
+      "all_awardings": {
+        "list": 3474
+      },
+      "allow_live_comments": {
+        "bool": 3474
+      },
+      "approved_at_utc": {
+        "NoneType": 3474
+      },
+      "approved_by": {
+        "NoneType": 3474
+      },
+      "archived": {
+        "bool": 3474
+      },
+      "author": {
+        "str": 3474
+      },
+      "author_flair_background_color": {
+        "NoneType": 3393,
+        "str": 81
+      },
+      "author_flair_css_class": {
+        "NoneType": 3474
+      },
+      "author_flair_richtext": {
+        "list": 3393
+      },
+      "author_flair_template_id": {
+        "NoneType": 3474
+      },
+      "author_flair_text": {
+        "NoneType": 3474
+      },
+      "author_flair_text_color": {
+        "NoneType": 3393,
+        "str": 81
+      },
+      "author_flair_type": {
+        "str": 3393
+      },
+      "author_fullname": {
+        "str": 3393
+      },
+      "author_is_blocked": {
+        "bool": 3474
+      },
+      "author_patreon_flair": {
+        "bool": 3393
+      },
+      "author_premium": {
+        "bool": 3393
+      },
+      "awarders": {
+        "list": 3474
+      },
+      "banned_at_utc": {
+        "NoneType": 3474
+      },
+      "banned_by": {
+        "NoneType": 3474
+      },
+      "can_gild": {
+        "bool": 3474
+      },
+      "can_mod_post": {
+        "bool": 3474
+      },
+      "category": {
+        "NoneType": 3474
+      },
+      "clicked": {
+        "bool": 3474
+      },
+      "content_categories": {
+        "NoneType": 3474
+      },
+      "contest_mode": {
+        "bool": 3474
+      },
+      "created": {
+        "int": 3474
+      },
+      "created_utc": {
+        "int": 3474
+      },
+      "discussion_type": {
+        "NoneType": 3474
+      },
+      "distinguished": {
+        "NoneType": 3474
+      },
+      "domain": {
+        "str": 3474
+      },
+      "downs": {
+        "int": 3474
+      },
+      "edited": {
+        "bool": 3474
+      },
+      "gilded": {
+        "int": 3474
+      },
+      "gildings": {
+        "dict": 3474
+      },
+      "hidden": {
+        "bool": 3474
+      },
+      "hide_score": {
+        "bool": 3474
+      },
+      "id": {
+        "str": 3474
+      },
+      "is_created_from_ads_ui": {
+        "bool": 3474
+      },
+      "is_crosspostable": {
+        "bool": 3474
+      },
+      "is_meta": {
+        "bool": 3474
+      },
+      "is_original_content": {
+        "bool": 3474
+      },
+      "is_reddit_media_domain": {
+        "bool": 3474
+      },
+      "is_robot_indexable": {
+        "bool": 3474
+      },
+      "is_self": {
+        "bool": 3474
+      },
+      "is_video": {
+        "bool": 3474
+      },
+      "likes": {
+        "NoneType": 3474
+      },
+      "link_flair_background_color": {
+        "str": 3474
+      },
+      "link_flair_css_class": {
+        "str": 3474
+      },
+      "link_flair_richtext": {
+        "list": 3474
+      },
+      "link_flair_template_id": {
+        "str": 3455
+      },
+      "link_flair_text": {
+        "str": 3474
+      },
+      "link_flair_text_color": {
+        "str": 3474
+      },
+      "link_flair_type": {
+        "str": 3474
+      },
+      "locked": {
+        "bool": 3474
+      },
+      "media": {
+        "NoneType": 3359,
+        "dict": 115
+      },
+      "media_embed": {
+        "dict": 3474
+      },
+      "media_only": {
+        "bool": 3474
+      },
+      "mod_note": {
+        "NoneType": 3474
+      },
+      "mod_reason_by": {
+        "NoneType": 3474
+      },
+      "mod_reason_title": {
+        "NoneType": 3474
+      },
+      "mod_reports": {
+        "list": 3474
+      },
+      "name": {
+        "str": 3474
+      },
+      "no_follow": {
+        "bool": 3474
+      },
+      "num_comments": {
+        "int": 3474
+      },
+      "num_crossposts": {
+        "int": 3474
+      },
+      "num_reports": {
+        "NoneType": 3474
+      },
+      "over_18": {
+        "bool": 3474
+      },
+      "permalink": {
+        "str": 3474
+      },
+      "pinned": {
+        "bool": 3474
+      },
+      "poll_data": {
+        "bool": 248
+      },
+      "pwls": {
+        "int": 3474
+      },
+      "quarantine": {
+        "bool": 3474
+      },
+      "removal_reason": {
+        "NoneType": 3472,
+        "str": 2
+      },
+      "removed_by": {
+        "NoneType": 3474
+      },
+      "removed_by_category": {
+        "NoneType": 2161,
+        "str": 1313
+      },
+      "report_reasons": {
+        "NoneType": 3474
+      },
+      "retrieved_on": {
+        "int": 3474
+      },
+      "saved": {
+        "bool": 3474
+      },
+      "score": {
+        "int": 3474
+      },
+      "secure_media": {
+        "NoneType": 3359,
+        "dict": 115
+      },
+      "secure_media_embed": {
+        "dict": 3474
+      },
+      "selftext": {
+        "str": 3474
+      },
+      "send_replies": {
+        "bool": 3474
+      },
+      "spoiler": {
+        "bool": 3474
+      },
+      "stickied": {
+        "bool": 3474
+      },
+      "subreddit": {
+        "str": 3474
+      },
+      "subreddit_id": {
+        "str": 3474
+      },
+      "subreddit_name_prefixed": {
+        "str": 3474
+      },
+      "subreddit_subscribers": {
+        "int": 3474
+      },
+      "subreddit_type": {
+        "str": 3474
+      },
+      "suggested_sort": {
+        "NoneType": 3474
+      },
+      "thumbnail": {
+        "str": 3467,
+        "NoneType": 7
+      },
+      "thumbnail_height": {
+        "NoneType": 2920,
+        "int": 547
+      },
+      "thumbnail_width": {
+        "NoneType": 2920,
+        "int": 547
+      },
+      "title": {
+        "str": 3474
+      },
+      "top_awarded_type": {
+        "NoneType": 3474
+      },
+      "total_awards_received": {
+        "int": 3474
+      },
+      "treatment_tags": {
+        "list": 3474
+      },
+      "ups": {
+        "int": 3474
+      },
+      "upvote_ratio": {
+        "float": 2254,
+        "int": 1220
+      },
+      "url": {
+        "str": 3474
+      },
+      "url_overridden_by_dest": {
+        "str": 3472
+      },
+      "user_reports": {
+        "list": 3474
+      },
+      "view_count": {
+        "NoneType": 3474
+      },
+      "visited": {
+        "bool": 3474
+      },
+      "wls": {
+        "int": 3474
+      },
+      "preview": {
+        "dict": 1941
+      },
+      "post_hint": {
+        "str": 574
+      },
+      "crosspost_parent": {
+        "str": 72
+      },
+      "crosspost_parent_list": {
+        "list": 72
+      },
+      "author_cakeday": {
+        "bool": 10
+      }
+    },
+    "comments": {
+      "_meta": {
+        "dict": 264881
+      },
+      "all_awardings": {
+        "list": 265475
+      },
+      "approved_at_utc": {
+        "NoneType": 265475
+      },
+      "approved_by": {
+        "NoneType": 265475
+      },
+      "archived": {
+        "bool": 265475
+      },
+      "associated_award": {
+        "NoneType": 265475
+      },
+      "author": {
+        "str": 265475
+      },
+      "author_flair_background_color": {
+        "NoneType": 245834,
+        "str": 19641
+      },
+      "author_flair_css_class": {
+        "NoneType": 265475
+      },
+      "author_flair_richtext": {
+        "list": 246035
+      },
+      "author_flair_template_id": {
+        "NoneType": 265475
+      },
+      "author_flair_text": {
+        "NoneType": 265475
+      },
+      "author_flair_text_color": {
+        "NoneType": 245834,
+        "str": 19641
+      },
+      "author_flair_type": {
+        "str": 246035
+      },
+      "author_fullname": {
+        "str": 245834
+      },
+      "author_is_blocked": {
+        "bool": 265475
+      },
+      "author_patreon_flair": {
+        "bool": 246035
+      },
+      "author_premium": {
+        "bool": 246035
+      },
+      "awarders": {
+        "list": 265475
+      },
+      "banned_at_utc": {
+        "NoneType": 265475
+      },
+      "banned_by": {
+        "NoneType": 265475
+      },
+      "body": {
+        "str": 265475
+      },
+      "can_gild": {
+        "bool": 265475
+      },
+      "can_mod_post": {
+        "bool": 265475
+      },
+      "collapsed": {
+        "bool": 265475
+      },
+      "collapsed_because_crowd_control": {
+        "NoneType": 265475
+      },
+      "collapsed_reason": {
+        "NoneType": 265404,
+        "str": 71
+      },
+      "collapsed_reason_code": {
+        "NoneType": 245763,
+        "str": 19712
+      },
+      "comment_type": {
+        "NoneType": 265475
+      },
+      "controversiality": {
+        "int": 265475
+      },
+      "created": {
+        "int": 265475
+      },
+      "created_utc": {
+        "int": 265475
+      },
+      "distinguished": {
+        "NoneType": 264905,
+        "str": 570
+      },
+      "downs": {
+        "int": 265475
+      },
+      "edited": {
+        "bool": 265390,
+        "int": 85
+      },
+      "gilded": {
+        "int": 265475
+      },
+      "gildings": {
+        "dict": 265475
+      },
+      "id": {
+        "str": 265475
+      },
+      "is_submitter": {
+        "bool": 265475
+      },
+      "likes": {
+        "NoneType": 265475
+      },
+      "link_id": {
+        "str": 265475
+      },
+      "locked": {
+        "bool": 265475
+      },
+      "mod_note": {
+        "NoneType": 265475
+      },
+      "mod_reason_by": {
+        "NoneType": 265475
+      },
+      "mod_reason_title": {
+        "NoneType": 265475
+      },
+      "mod_reports": {
+        "list": 265475
+      },
+      "name": {
+        "str": 265475
+      },
+      "no_follow": {
+        "bool": 265475
+      },
+      "num_reports": {
+        "NoneType": 265475
+      },
+      "parent_id": {
+        "str": 265475
+      },
+      "permalink": {
+        "str": 265475
+      },
+      "removal_reason": {
+        "NoneType": 265348,
+        "str": 127
+      },
+      "replies": {
+        "str": 265475
+      },
+      "report_reasons": {
+        "NoneType": 265475
+      },
+      "retrieved_on": {
+        "int": 265475
+      },
+      "saved": {
+        "bool": 265475
+      },
+      "score": {
+        "int": 265475
+      },
+      "score_hidden": {
+        "bool": 265475
+      },
+      "send_replies": {
+        "bool": 265475
+      },
+      "stickied": {
+        "bool": 265475
+      },
+      "subreddit": {
+        "str": 265475
+      },
+      "subreddit_id": {
+        "str": 265475
+      },
+      "subreddit_name_prefixed": {
+        "str": 265475
+      },
+      "subreddit_type": {
+        "str": 265475
+      },
+      "top_awarded_type": {
+        "NoneType": 265475
+      },
+      "total_awards_received": {
+        "int": 265475
+      },
+      "treatment_tags": {
+        "list": 265475
+      },
+      "unrepliable_reason": {
+        "NoneType": 265475
+      },
+      "ups": {
+        "int": 265475
+      },
+      "user_reports": {
+        "list": 265475
+      },
+      "author_cakeday": {
+        "bool": 1051
+      },
+      "editable": {
+        "bool": 399
+      },
+      "profile_img": {
+        "str": 5240
+      },
+      "profile_over_18": {
+        "bool": 5240
+      }
+    }
+  },
+  "largest_observed_threads": [
+    {
+      "submission_name": "t3_1qkwbw4",
+      "selected_comment_count": 3854,
+      "submission_in_package": true
+    },
+    {
+      "submission_name": "t3_1qejnjo",
+      "selected_comment_count": 3377,
+      "submission_in_package": true
+    },
+    {
+      "submission_name": "t3_1qavaiz",
+      "selected_comment_count": 3376,
+      "submission_in_package": true
+    },
+    {
+      "submission_name": "t3_1q2449l",
+      "selected_comment_count": 3093,
+      "submission_in_package": true
+    },
+    {
+      "submission_name": "t3_1q4y25e",
+      "selected_comment_count": 2664,
+      "submission_in_package": true
+    },
+    {
+      "submission_name": "t3_1qi5si0",
+      "selected_comment_count": 2536,
+      "submission_in_package": true
+    },
+    {
+      "submission_name": "t3_1q8aayu",
+      "selected_comment_count": 2373,
+      "submission_in_package": true
+    },
+    {
+      "submission_name": "t3_1qcqc5i",
+      "selected_comment_count": 2312,
+      "submission_in_package": true
+    },
+    {
+      "submission_name": "t3_1q661vq",
+      "selected_comment_count": 2276,
+      "submission_in_package": true
+    },
+    {
+      "submission_name": "t3_1qlaa1h",
+      "selected_comment_count": 2122,
+      "submission_in_package": true
+    }
+  ],
+  "files": {
+    "submissions.jsonl": {
+      "bytes": 12732760,
+      "records": 3474,
+      "sha256": "3fac9766c5238e76596c44fa48978267531aab4855f3b2057678a280b560361c"
+    },
+    "comments.jsonl": {
+      "bytes": 470500696,
+      "records": 265475,
+      "sha256": "e95a8d049d7fdee8102894ff5f9ab7ce7e1b910b559bd221ce27bc8a46ff7da4"
+    }
+  },
+  "limitations": [
+    "Coverage is limited to available archive records, not guaranteed complete Reddit history.",
+    "Monthly comments can refer to submissions or parent comments outside the monthly slice. Missing reference means absent from this package, not necessarily absent from Reddit.",
+    "User histories are restricted to these four subreddits and this month.",
+    "Observed author activity does not reveal post exposure, silent users, or internal beliefs.",
+    "Scores, edits, removal status and other mutable fields are retrieval snapshots; use care to avoid future-information leakage in temporal tasks."
+  ]
+}
